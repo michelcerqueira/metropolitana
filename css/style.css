@@ -91,7 +91,8 @@
   padding: 0px;
   text-transform: uppercase;
   width: 100%;
-     min-height: 190px;
+     min-height: 1190px;
+	  overflow-x: hidden; 
 }
 }
 
