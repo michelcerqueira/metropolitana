@@ -157,7 +157,7 @@ body {
 }
 
 
-@media only screen and (min-device-width : 1000px) {
+@media only screen and (min-device-width : 1000px) and (max-width: 1900px)  {
 	.roulette {
 	  margin: 0;
 	  padding: 0;
@@ -222,7 +222,7 @@ body {
   overflow-x:hidden;
  
 }
-@media only screen and (min-device-width : 320px) {
+@media only screen and (min-device-width : 320px) and (max-width: 719px)  {
   body {
   -webkit-touch-callout: none;
   -webkit-text-size-adjust: none;
