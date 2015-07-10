@@ -248,9 +248,14 @@ body {
   overflow-x:hidden;
 	}	
 		.price {
-			padding-bottom: 100px;	
+			padding-bottom: 70px;
 		}
- 
+	.play {
+	  cursor: pointer;
+	  width: 67%;
+	  margin: 0 auto;
+	  display: block;
+	}
 	.play {
 	cursor: pointer;
 	width: 70%;
@@ -273,11 +278,11 @@ body {
 }
 @media (min-height: 1600px) {
 .price {
-  padding-bottom: 100px;
+  padding-bottom: 80px;
 }
 .play {
   
-  width: 60%;
+  width: 58%;
 }
 body {
  
