@@ -12,6 +12,10 @@ var clickHandler = function() {
 	   window.localStorage.clickcount = Number(localStorage.clickcount) + 1;
 	
 		x+=1;
+		 var sound = document.createElement('audio');
+        sound.setAttribute('src', 'http://bramp.net/javascript/wheel.mp3');
+		 document.body.appendChild(sound);
+       
  
     
         

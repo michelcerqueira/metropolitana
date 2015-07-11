@@ -2,6 +2,9 @@
 	
 	
    var $fortune = function(args) {
+	  
+       
+ 
 
     if (args === undefined) {
       throw(new Error("You must define the options.prices"));
@@ -9,7 +12,7 @@
 
     var options = $.extend({}, {
       prices: args,
-      duration: 9000,
+      duration: 18000,
       separation: 2,
       min_spins: 10,
       max_spins: 15,
@@ -28,7 +31,10 @@
       var deferred = $.Deferred();
       //var position = Math.floor(prices_delta * (price - 1/2) + randomBetween(options.separation, prices_delta - options.separation));
       
-	  
+	   var sound = document.createElement('audio');
+        sound.setAttribute('src', 'img/wheel.mp3');
+		 document.body.appendChild(sound);
+			sound.play();
 	 var ar = [55,105,280,320];
 	  var position =  $.shuffle(ar);
 	  console.log(position);
@@ -123,7 +129,7 @@
 	  }if(x == 100){
 		   	var position = 150;
 			x = 0;
-			
+			//
 		  
 	  }
 	  
