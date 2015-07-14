@@ -35,30 +35,30 @@
         sound.setAttribute('src', 'img/wheel.mp3');
 		 document.body.appendChild(sound);
 			sound.play();
-	 var ar = [55,105,280,320];
+	 var ar = [55,80,90,280,320];
 	  var position =  $.shuffle(ar);
 	  console.log(position);
 	  position = ar[0];
 	  
 	   if(x == 3){		  
-		var position = 150;
+		var position = 143;
 			
 	  }
 	  if(x == 7){		  
-		var position = 240;
+		var position = 220;
 			
 	  }
 	  if(x == 13){		  
-		var position = 150;
+		var position = 125;
 			
 	  }
 	  if(x == 19){		  
-		var position = 150;
+		var position = 130;
 		//
 			
 	  }
 	  if(x == 27){
-		  var position = 240;
+		  var position = 215;
 		 
 	  }
 	   if(x == 33){
@@ -95,21 +95,21 @@
 		  
 	  }
 	   if(x == 66){
-		   	var position = 240;
+		   	var position = 232;
 			
 		  
 	  }
 	   if(x == 72){
-		   	var position = 150;
+		   	var position = 140;
 			
 		  //
 	  }
 	   if(x == 76){		  
-		var position = 150;
+		var position = 122;
 			
 	  }
 	   if(x == 80){
-		   	var position = 240;
+		   	var position = 230;
 			
 		  
 	  }
@@ -127,7 +127,7 @@
 			
 		  
 	  }if(x == 100){
-		   	var position = 150;
+		   	var position = 135;
 			x = 0;
 			//
 		  
