@@ -173,3 +173,29 @@
 	}
 }
 
+@media screen and (width: 720px){
+	.centro {
+	  border: 0px solid #000;
+	  width: 720px;
+	  position: relative;
+	  height: auto;
+	  margin: 0 auto;
+	  overflow-y: hidden;
+	  overflow-x: hidden;
+	}
+	.fundointerna {
+  width: 70%;
+  border: 0px solid;
+  position: absolute;
+  margin: 0 auto;
+  left: 18.8%;
+  top: 252px;
+  z-index: 999;
+}
+.botao {
+  position: relative;
+  width: 50%;
+  MARGIN: 0 AUTO;
+  MARGIN-TOP: 5PX;
+}
+}
