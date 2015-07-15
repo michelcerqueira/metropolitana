@@ -68,7 +68,6 @@
 	.fundointerna{
 		width: 29%;
 	  border: 0px solid;
-	  position: absolute;
 	  margin: 0 auto;
 	  left: 35%;
 	  top: 181px;
@@ -104,7 +103,6 @@
 	.fundointerna {
 	  width: 70%;
 	  border: 0px solid;
-	  position: absolute;
 	  margin: 0 auto;
 	  left: 20.8%;
 	  top: 278px;
@@ -155,7 +153,6 @@
 	.fundointerna {
 	  width: 70%;
 	  border: 0px solid;
-	  position: absolute;
 	  margin: 0 auto;
 	  left: 28%;
 	  top: 565px;
@@ -186,7 +183,6 @@
 	.fundointerna {
   width: 70%;
   border: 0px solid;
-  position: absolute;
   margin: 0 auto;
   left: 18.8%;
   top: 252px;
