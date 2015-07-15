@@ -193,9 +193,11 @@
   z-index: 999;
 }
 .botao {
+  
   position: relative;
-  width: 50%;
+  width: 55%;
   MARGIN: 0 AUTO;
-  MARGIN-TOP: 5PX;
+  MARGIN-TOP: 30PX;
+
 }
 }
